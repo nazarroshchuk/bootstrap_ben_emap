@@ -1,0 +1,106 @@
+.header a.nav-link {
+    color: #000 !important;
+}
+.header__above-logo {
+    font-size: 35px;
+}
+.header__above {
+    padding-top: 20px;
+}
+.header__below-content {
+    padding-top: 100px;
+}
+.header__below-title {
+    font-size: 45px;
+    padding-top: 40px;
+}
+.header__below-text {
+    margin-top: 20px;
+}
+.header__below-btn,
+.footer__form-btn {
+    background-color: darkorange !important;
+}
+.header__below-picture {
+    width: 500px;
+}
+.games__title {
+    font-size: 35px;
+}
+.figure-caption-title {
+    font-size: 16px;
+}
+.figure-caption-text {
+    font-size: 12px;
+    padding: 0 20px 0 20px;
+}
+.games__galery {
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+.games--background-dark {
+    background-color: #343a40;
+}
+.games__description {
+    max-width: 700px;
+}
+.games__title {
+    padding-top: 40px;
+}
+.games--text-color {
+    color: #fff;
+}
+.footer__content {
+    padding: 50px 0 50px 0;
+}
+.footer__background--color {
+    background-color: #343a40;
+}
+.footer__copiright-text {
+    padding-bottom: 20px;
+}
+.header__above-burger-menu {
+    display: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #f5f5f5 ;
+}
+.burger__menu-container {
+    padding-top: 10px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.burger__menu-item {
+    margin: 0 20px 0 20px;
+    max-width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    .header__above-menu {
+        display: none;
+    }
+}
+@media (max-width: 992px) { 
+    .header__above-burger-menu {
+        display: block;
+    }
+    .header__above-btn {
+        display: none;
+    }
+    .header__below-content {
+        padding: 0 0 40px 0;
+    }
+    .header__below-title {
+        padding: 0;
+    }
+}
+
+
+
+
